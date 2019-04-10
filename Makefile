@@ -38,7 +38,7 @@ ASSEMBLY_HEADER_SUFFIX      = .S
 
 CC                          = gcc
 CXX                         = g++
-AS                          = as
+AS                          = nasm
 LD                          = g++
 
 CCFLAGS                     = -g -O3 -Wall -std=c11 -march=core-avx2 -masm=intel -mno-vzeroupper -pthread -I$(INCLUDE_DIR) -D_GNU_SOURCE
